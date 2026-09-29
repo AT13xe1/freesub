@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
-      "server": "34.51.29.171",
+      "tag": "🇭🇺 匈牙利 (Hungary) 01 - xiaohe",
+      "server": "45.9.168.211",
       "server_port": 443,
-      "uuid": "9ad81959-02c6-4679-a419-2af6a16ca07a",
+      "uuid": "7de5e70d-b95e-4019-affb-636151647b52",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "mzone.hu.3cloudhost.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "8vHditYTXXNZ37iNTraU4w129svOplF0QUhZwX2n3FA",
-          "short_id": "dcabbf24adf88abc"
+          "public_key": "SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8",
+          "short_id": ""
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
+        "🇭🇺 匈牙利 (Hungary) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
+        "🇭🇺 匈牙利 (Hungary) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
