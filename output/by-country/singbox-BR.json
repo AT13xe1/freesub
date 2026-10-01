@@ -4,24 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "172.67.203.158",
+      "type": "vmess",
+      "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
+      "server": "89.39.161.157",
       "server_port": 443,
-      "uuid": "911b84e1-d046-4fbf-bfc0-c168791115ef",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
+        "server_name": "aksai.org",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/YCNmDFbqMu7cgTzgsfEWGtBD8kRfp=chrome",
+        "path": "/linkvws",
         "headers": {
-          "Host": "12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev"
+          "Host": "aksai.org"
         }
       }
     },
@@ -30,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
