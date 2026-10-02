@@ -15,17 +15,37 @@ proxies:
     public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
   servername: download.windowsupdate.com
   client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  server: b08d347f-tmm5c0-tu0ezx-1m7l4.hk3.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+  sni: b08d347f-tmm5c0-tu0ezx-1m7l4.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
+  server: 85715c75-tmm5c0-tncdxq-m0b9.nw4.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  sni: 85715c75-tmm5c0-tncdxq-m0b9.nw4.hyhuawei.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
