@@ -24,8 +24,16 @@
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇲🇾 马来西亚 (Malaysia) 03 - xiaohe",
+      "server": "zfd-boardv2.kunlun01dns.com",
+      "server_port": 16317,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
+      "type": "vless",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 04 - xiaohe",
       "server": "149.33.30.176",
       "server_port": 443,
       "uuid": "5fffad1b-10f0-41ff-abe7-e5a92696d5ef",
@@ -51,7 +59,8 @@
         "auto",
         "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe",
         "🇲🇾 马来西亚 (Malaysia) 02 - xiaohe",
-        "🇲🇾 马来西亚 (Malaysia) 03 - xiaohe"
+        "🇲🇾 马来西亚 (Malaysia) 03 - xiaohe",
+        "🇲🇾 马来西亚 (Malaysia) 04 - xiaohe"
       ]
     },
     {
@@ -60,7 +69,8 @@
       "outbounds": [
         "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe",
         "🇲🇾 马来西亚 (Malaysia) 02 - xiaohe",
-        "🇲🇾 马来西亚 (Malaysia) 03 - xiaohe"
+        "🇲🇾 马来西亚 (Malaysia) 03 - xiaohe",
+        "🇲🇾 马来西亚 (Malaysia) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
