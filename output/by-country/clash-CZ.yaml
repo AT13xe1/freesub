@@ -4,29 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe
-  server: 89.125.96.75
-  port: 2053
+- name: 🇨🇿 捷克 (Czech) 01 - xiaohe
+  server: 172.67.150.22
+  port: 443
   udp: true
-  type: vless
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  tls: true
-  servername: wss.zazazuza.ru
+  type: trojan
+  password: LcICDcp!jD9TFV$NbH
+  sni: dl2uF-iVdeZILZ3E86rK18.Hhvt37tjm2XBOsQL5HXogN-Y.woRKERS.dEv
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vpn-wss/fluxor/59011/
+    path: /tr/pg4wM48V9O859nmqsJg22EOFKN4S570y?ed=2560
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
 rules:
 - MATCH,PROXIES
